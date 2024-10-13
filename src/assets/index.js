@@ -22,14 +22,17 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import foodbank from "./foodbank.png";
+import risktool from "./risktool.jpeg";
 import tripguide from "./tripguide.png";
+import kaiPic from "./kaiPic.png";
+import angelPic from "./angelPic.jpg";
+import workoutLibrary from "./workoutLibrary.jpeg";
+import controlPanel from "./controlPanel.jpeg";
+import foodBank from "./foodBank.jpeg";
+
 
 export {
   logo,
@@ -54,11 +57,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
-  jobit,
+  foodbank,
   tripguide,
+  risktool,
+  kaiPic,
+  angelPic,
+  workoutLibrary,
+  controlPanel,
+  foodBank,
 };
