@@ -47,10 +47,10 @@ const About = () => {
         >
           Invest in your business entity today!
         </h2>
-        <a href="#contact">
+        <a href="#contact" >
           <button
           className="bg-quaternary py-3 px-8 outline-none w-fit text-white font-bold shadow-md
-          shadow-primary rounded-xl"
+          shadow-primary rounded-xl mt-[15px]"
           
           >
             Get A Quote!

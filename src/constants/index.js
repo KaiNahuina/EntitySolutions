@@ -118,29 +118,23 @@ import {
   //To add profile pictures, add new folder in assets, import image from folder into index.js in assets
   const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      testimonial:"Thank you Kai and Angel for your help, i've been able to plan my projects in half the time!",
       name: "Michelle Odanga",
       designation: "Sr. eCommerce Program Manager",
       company: "Unity",
       link: "https://www.linkedin.com/in/michelle-odanga-27310239/",
+      stars: 4,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "Very happy with the project, i've been filling out forms and invoices eight times faster than before. Highly recommend!",
       name: "Toby Green",
       designation: "CEO",
       company: "VIP Spooling",
-      link: "https://www.linkedin.com",
+      link: "https://www.vipspooling.com/",
+      stars: 5,
     },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      link: "https://www.linkedin.com",
-    },
+    
   ];
   
   const projects = [
@@ -150,30 +144,30 @@ import {
         "Web application prototype enabling users to find local foodbanks to locate or donate food, start foodbanks, and find other ways to help such as volunteering.",
       tags: [
         {
-          name: "c#",
+          name: "C#",
           color: "purple-text-gradient",
         },
         {
-          name: "html",
+          name: "HTML",
           color: "red-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         },
         {
           name: "ASP.Net",
-          color: "pink-text-gradient",
+          color: "yellow-text-gradient",
         
         },
         {
           name: "JavaScript",
-          color: "pink-text-gradient",
+          color: "silver-text-gradient",
         
         },
         {
           name: "SQL",
-          color: "pink-text-gradient",
+          color: "teal-text-gradient",
         
         },
 
@@ -187,19 +181,15 @@ import {
         "Project risk-management tool built to visualise the considerations and the resulting risk of taking on a new project or changing a current one.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "nodejs",
+          name: "Node.JS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Node.JS",
+          name: "CSS",
           color: "pink-text-gradient",
         },
         
@@ -210,34 +200,34 @@ import {
     {
       name: "Workout Library",
       description:
-        "Description",
+        "Web app for personal trainers to create and manage custom workouts for clients, organize plans, and track progress, with support for both mobile and desktop users.",
       tags: [
         {
           name: "C#",
-          color: "blue-text-gradient",
+          color: "purple-text-gradient",
         },
         {
           name: "HTML",
-          color: "green-text-gradient",
+          color: "red-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         
         },
         {
           name: "JavaScript",
-          color: "pink-text-gradient",
+          color: "silver-text-gradient",
         
         },
         {
           name: "ASP.Net",
-          color: "pink-text-gradient",
+          color: "yellow-text-gradient",
         
         },
         {
           name: "SQL",
-          color: "pink-text-gradient",
+          color: "teal-text-gradient",
         
         },
 
@@ -248,36 +238,26 @@ import {
     {
       name: "Control Panel",
       description:
-        "Description",
+        "This project develops an IoT system using a Raspberry Pi 4b, with MQTT for device communication. A React Native mobile app (built with Expo) controls the devices, while Node.js powers backend communication with the Raspberry Pi.",
       tags: [
         {
-          name: "C#",
-          color: "blue-text-gradient",
+          name: "React Native",
+          color: "magenta-text-gradient",
         },
         {
-          name: "HTML",
+          name: "Node.JS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
-        
-        },
-        {
           name: "JavaScript",
-          color: "pink-text-gradient",
-        
+          color: "silver-text-gradient",
         },
         {
-          name: "ASP.Net",
-          color: "pink-text-gradient",
+          name: "Python",
+          color: "coral-text-gradient",
         
         },
-        {
-          name: "SQL",
-          color: "pink-text-gradient",
         
-        },
 
       ],
       image: controlPanel,
@@ -293,16 +273,15 @@ import {
       name: "Ikaika Nahuina",
       image: kaiPic,
       role: "Co-Founder and Head of Web Development",
-      skills:"Specialised in: Javascript, TypeScript, CSS, HTML, React, Node.js, Vue.js, Tailwind CSS, and SQL",
-      background:"Im a dynamic software engineer specializing in object-oriented programming and other solutions, I focus on developing and optimizing responsive web and mobile applications and bespoke solutions. With expertise in the full software development lifecycle and Agile methodologies, I deliver innovative, secure solutions to complex challenges.",
-      experience:"experience",
+      background:"I'm a dynamic software engineer with a degree in Software Engineering from the University of Chester. I specialize in creating and optimizing responsive applications, using Agile methodologies to deliver secure, high-performance solutions. My experience spans developing tailored software for diverse clients, with a focus on efficient problem-solving, collaborative development, and ensuring high-quality outcomes.",
+      link: "https://www.linkedin.com/in/ikaika-nahuina-0570261a4/",
     },
     {
       name: "Angel Salinas",
       image: angelPic,
       role: "Co-Founder and Head of App Development",
-      background:"I'm a passionate software developer, specializing in creating tailored mobile apps, web apps, and automation solutions to help businesses optimize processes and build a strong online presence. With a degree in Computer Science and experience in developing innovative software solutions, I focus on delivering efficient and scalable technologies that meet the unique needs of our clients.",
-      experience:"From IoT systems to cross-platform applications, my technical expertise includes, but is not limited to, TypeScript, JavaScript, React, Artificial Intelligence, and database management. I’m driven by the goal of helping businesses thrive through the power of custom software, whether it’s automating tasks, improving workflows, or bringing innovative ideas to life.",
+      background:"I am a passionate software developer with vast experience in creating custom mobile and web applications, as well as automation solutions tailored to my clients' needs. Leveraging cutting-edge technologies like AI, custom APIs, and IoT systems, I help businesses streamline operations, boost efficiency, and build a strong online presence.",
+      link:"https://www.linkedin.com/in/%C3%A1ngel-salinas-25a15a22a/",
     },
   ];
   

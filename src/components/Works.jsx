@@ -9,20 +9,24 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
-    <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn('up', 'spring', index * 0.5, 0.75)}
+      className="flex flex-col bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+      style={{ minHeight: '100%' }} // Allow the card to stretch to the tallest card
+    >
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="flex-grow flex flex-col" // Flex-grow allows card content to expand and match tallest height
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[230px]" onClick={() => window.open(source_code_link, '_blank')}>
           <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open(source_code_link, '_blank')}
+            
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
@@ -44,6 +48,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
     </motion.div>
   );
 };
+
 
 const Works = () => {
   return (
