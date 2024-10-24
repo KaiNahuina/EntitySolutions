@@ -34,16 +34,12 @@ const OwnersCard = ({ owner }) => (
 
     {/* Bottom row with full width for background and experience */}
     <div className="w-full mt-4 p-4 text-white">
-      <div className="owner-background">
-        <p>{owner.background}</p>
+      <div className="owner-background text-[13px] sm:text-[15px] md:text-[16px]">
+        <p className="mb-2 sm:mb-4">{owner.background}</p>
       </div>
     </div>
   </div>
 );
-
-
-
-
 
 const Owners = () => {
   return (
