@@ -336,3 +336,7 @@
   transform: translateY(-3px);  /* Slight upward movement */
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15); /* Add a soft shadow */
 }
+
+.clickable-item {
+  cursor: pointer;
+}

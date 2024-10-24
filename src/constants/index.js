@@ -233,7 +233,7 @@ import {
 
       ],
       image: workoutLibrary,
-      source_code_link: "https://github.com/An6el-01/CO5227/tree/master",
+      source_code_link: "https://github.com/An6el-01/WorkoutLibrary",
     },
     {
       name: "Control Panel",
@@ -261,7 +261,7 @@ import {
 
       ],
       image: controlPanel,
-      source_code_link: "https://github.com/An6el-01/CO5227/tree/master",
+      source_code_link: "https://github.com/An6el-01/RaspberryPi-IoT",
     },
     
     

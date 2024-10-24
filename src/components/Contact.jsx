@@ -42,7 +42,7 @@ const formRef = useRef();
     .then(() => {
 
       setLoading(false);
-      alert('Thank you for your message, we will get back yo you as soon as possible!');
+      alert('Thank you for your message, we will get back to you as soon as possible!');
 
       setForm({
         name: '',

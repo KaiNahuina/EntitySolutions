@@ -11,7 +11,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
   return (
     <motion.div
       variants={fadeIn('up', 'spring', index * 0.5, 0.75)}
-      className="flex flex-col bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+      className="flex flex-col bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full clickable-item"
       style={{ minHeight: '100%' }} // Allow the card to stretch to the tallest card
     >
       <Tilt
