@@ -129,9 +129,9 @@ import {
       testimonial:
         "Very happy with the project, i've been filling out forms and invoices eight times faster than before. Highly recommend!",
       name: "Toby Green",
-      designation: "CEO",
+      designation: "President",
       company: "VIP Spooling",
-      link: "https://www.vipspooling.com/",
+      link: "https://www.facebook.com/toby.green.581",
       stars: 5,
     },
     
